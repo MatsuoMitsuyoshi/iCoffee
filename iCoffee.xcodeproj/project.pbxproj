@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		098CB9C82446B81C006C9F51 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 098CB9C72446B81C006C9F51 /* Preview Assets.xcassets */; };
 		098CB9CB2446B81C006C9F51 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 098CB9C92446B81C006C9F51 /* LaunchScreen.storyboard */; };
 		098CB9D32446D5B8006C9F51 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 098CB9D22446D5B8006C9F51 /* GoogleService-Info.plist */; };
+		09CE4E8C244728FF00F775F7 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09CE4E8B244728FF00F775F7 /* Drink.swift */; };
 		8F5C158439D0F6927F426E6F /* Pods_iCoffee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3991E443357FF580506DF3F /* Pods_iCoffee.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		098CB9CA2446B81C006C9F51 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		098CB9CC2446B81C006C9F51 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		098CB9D22446D5B8006C9F51 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		09CE4E8B244728FF00F775F7 /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
 		1B95E5B019BE9C3D16FF04A1 /* Pods-iCoffee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCoffee.debug.xcconfig"; path = "Target Support Files/Pods-iCoffee/Pods-iCoffee.debug.xcconfig"; sourceTree = "<group>"; };
 		3FABE53C9B750A7BDF0077B1 /* Pods-iCoffee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCoffee.release.xcconfig"; path = "Target Support Files/Pods-iCoffee/Pods-iCoffee.release.xcconfig"; sourceTree = "<group>"; };
 		E3991E443357FF580506DF3F /* Pods_iCoffee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iCoffee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +75,7 @@
 				098CB9CC2446B81C006C9F51 /* Info.plist */,
 				098CB9D22446D5B8006C9F51 /* GoogleService-Info.plist */,
 				098CB9C62446B81C006C9F51 /* Preview Content */,
+				09CE4E8B244728FF00F775F7 /* Drink.swift */,
 			);
 			path = iCoffee;
 			sourceTree = "<group>";
@@ -91,7 +94,6 @@
 				1B95E5B019BE9C3D16FF04A1 /* Pods-iCoffee.debug.xcconfig */,
 				3FABE53C9B750A7BDF0077B1 /* Pods-iCoffee.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -221,6 +223,7 @@
 			files = (
 				098CB9BF2446B81B006C9F51 /* AppDelegate.swift in Sources */,
 				098CB9C12446B81B006C9F51 /* SceneDelegate.swift in Sources */,
+				09CE4E8C244728FF00F775F7 /* Drink.swift in Sources */,
 				098CB9C32446B81B006C9F51 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
